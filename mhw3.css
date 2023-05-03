@@ -1,0 +1,175 @@
+form {
+  width: 100vw;
+  text-align: center;
+  margin-top: 50px;
+  color:white;
+}
+
+article {
+	margin: 20px 0;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+  color: white;
+  justify-items: center;
+}
+
+#championship-view {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+body{
+  margin: 0px;
+  background-color: black;
+}
+
+#hr{
+  background: url(Copertina.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 100vw;
+}
+
+#nv{
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
+  top: 10px;
+  margin-left: -10px;
+}
+
+#nv a{
+  color: white;
+  margin-left: 5px;
+}
+
+a.bottone{
+  padding: 5px 10px;
+  border: 2px solid white;
+  border-radius: 100px;
+}
+
+#nv .bottone:hover{
+  background-color: rgba(0, 0,0, 0.3);
+  color:gold;
+  font-size:medium;
+}
+
+.overlay{
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(0, 0,0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hr span{
+  color: gold;
+  font-size: 60px;
+  font-family: 'Raleway', sans-serif;
+  display: inline-block;
+  font-weight: bold;
+  width: 780px;
+  text-align: center;
+}
+
+#sc.hidden{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+#sc{
+  display:none;
+}
+
+.numero{
+  margin-right: 40px;
+  color: gold;
+  font-size: x-large;
+}
+
+.nm{
+  color:gold;
+  font-size: x-large;
+}
+
+.agg{
+  color: red;
+  text-decoration: double;
+  font-size: large;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  width: 66.67vw;
+  color: white;
+}
+
+.box{
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.text span{
+  margin-bottom: 20px;
+}
+
+.text strong{
+  margin-bottom: 20px;
+}
+
+#ft{
+  display: flex;
+  background-color: rgba(60, 58, 58, 0.607);
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100vw;
+}
+
+#ft span{
+  color: white;
+  font-family: 'Merriweather', serif;
+}
+
+div.championships{
+  margin-bottom: 20px;
+  border: 2px solid gold;
+  padding-left: 5px;
+}
+
+@media(max-width:600px){
+  #nv{
+      display: none;
+  }
+  #menu{
+      display: block;
+      position: absolute;
+      top: 0px;
+      right: 10px;
+      }
+  #menu div{
+      width: 25px;
+      height: 3px;
+      background-color: white;
+      margin: 5px 0px;
+  }
+}
+
+@media(max-width: 1000px){
+  #hr strong{
+      width: 80%;
+      font-size: 40px;
+  }
+
+}
